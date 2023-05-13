@@ -1,0 +1,130 @@
+.teamOuter{
+    /* height: 1000px; */
+    border: 1px solid black;
+    background-color: #08150E;
+    color: white;
+    font-family: 'Lato';
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.teamheader{
+    text-align: center;
+    font-size: 4vw;
+}
+
+.line-3{
+    width: 55%;
+    border: 2px solid white;
+    float: right;
+    margin-top: 4px;
+}
+
+.teamContent{
+    width: 86%;
+    margin: 55px 0px 0px 80px;
+}
+
+.teamContent > h2{
+    color: #B3BB92;
+    font-size: 3.2vw;
+}
+
+.team-img{ 
+    width: 70%;
+    margin: 2% 0% 0% 18%;
+}
+
+.teamContent > p{
+    font-size: 1.6vw;
+    margin-top: 26px;
+    padding: 0px 36px 0px 0px;
+    line-height: 1.3;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: 0.7px;
+}
+
+.ui.button.knowmore-btn{
+    padding: 7px 20px 8px 20px;
+    right: 2.5%;
+    top: 70px;
+    float: right;
+    font-size: 1.6vw;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-top-left-radius: 30px;
+    border-top-right-radius:  30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.teamOuter{
+    position: relative;
+}
+
+.ui.modal > .content{
+    width: 1150px !important;
+}
+
+.ui.image.arrow{
+    position: absolute;
+    bottom: 95%;
+    left: 20%;
+    width: 6.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .teamOuter{
+        border-bottom: none;
+        padding-bottom: 100px;
+    }
+
+    .teamheader{
+        font-size: 8vw;
+    }
+    .ui.image.arrow{
+        position: absolute;
+        bottom: 95%;
+        left: 10%;
+        width: 14%;
+    }
+    .teamContent{
+        width: 80%;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .teamContent > h2{
+        font-size: 5.5vw;
+    }
+    .team-img{ 
+        width: 100%;
+        margin: 2% 0% 0% 0%;
+    }
+    .teamContent > p{
+        font-size: 3vw;
+        margin-top: 26px;
+        padding: 0px;
+        line-height: 1.4;
+        font-weight: 600;
+        text-align: justify;
+        letter-spacing: 0.1px;
+    }
+    .ui.button.knowmore-btn{
+        right: 1%;
+        top: 20px;
+        font-size: 3vw;
+    }
+    
+    .ui.image.arrow{
+    bottom: 96%;
+}
+ 
+  }
+  @media only screen and (max-width: 600px) {
+    .teamContent > p {
+        font-size: 3.5vw;
+    }
+  }

@@ -1,0 +1,148 @@
+.header {
+  padding: 25px 2px;
+}
+
+.header>.ui.header {
+  /* width: 45% !important; */
+  margin-right: 0px !important;
+}
+
+.left {
+  width: 35% !important;
+  /* position: relative; */
+}
+
+.header>.header_left>div {
+  /* border: 1px solid rgb(0, 255, 76) !important; */
+  width: 20%;
+  height: 20%;
+  margin-left: 17%;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.header>.header_right {
+  width: 53% !important;
+  /* border: 1px solid rgb(255, 0, 255) !important; */
+}
+
+.headerLinksList {
+  display: flex;
+  width: 100% !important;
+  margin-left: 6%;
+  /* border: 1px solid blue; */
+  padding: 20px 0px 15px 0px !important;
+}
+
+.headerLinksList>div {
+  margin-left: 40px;
+}
+
+.hr {
+  background-color: black;
+  width: 100%;
+  height: 2px;
+}
+
+.headerLink {
+  font-size: 1.7vw !important;
+  color: #B3BB92 !important;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.underSquare {
+  font-size: 1.7vw !important;
+  color: black !important;
+}
+
+.menuBar {
+  display: none;
+}
+
+@media only screen and (max-width:600px) {
+  .headerLinksList {
+    display: none;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .menuBar {
+    display: block;
+    /* border: 1px solid red; */
+    padding-top: 20%;
+  }
+
+  .header>.ui.header.header_right {
+    /* border: 1px solid red !important; */
+    width: 25% !important;
+  }
+
+  .header>.header_left>div {
+    margin-left: 21%;
+    width: 35%;
+  }
+  .menuBar {
+    padding-top: 10%;
+    width: 60%;
+
+  }
+  .menuBar>.ui.sidebar {
+    width: 100% !important;
+    margin-top: 20% !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .menuBar > .ui.image{
+    width: 40%;
+    margin-left: 75%;
+    cursor: pointer;
+  }
+
+  .menuBar>.ui.sidebar>div {
+    margin: 0;
+    padding: 10px;
+  }
+  .menuBar>.ui.sidebar>div > a.headerLink {
+    font-size: 3vw !important;
+  }
+  .ui.labeled.icon.menu{
+    text-align: left !important;
+    padding: 10px 40px;
+
+  }
+  .underSquare {
+    font-size: 3vw !important;
+    font-weight: 600;
+  }
+
+}
+
+@media only screen and (max-width:468px) {
+  .menuBar>.ui.sidebar>div > a.headerLink {
+    font-size: 5vw !important;
+  }
+  .ui.labeled.icon.menu{
+    padding: 10px 20px;
+  }
+  .underSquare {
+    font-size: 5vw !important;
+    font-weight: 600;
+  }
+  .header>.header_left>div {
+    width: 45%;
+    margin-left: 25%;
+  }
+  .menuBar > .ui.image{
+    width: 45%;
+    margin-left: 60%;
+  }
+
+}

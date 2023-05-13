@@ -1,0 +1,123 @@
+.serviceOuter{
+    font-family: 'Lato';
+    margin-top:25px;
+    margin-bottom: 110px;
+}
+
+.serviceheader{
+    text-align: center;
+    font-size: 4vw;
+    color: #132E18;
+}
+
+.line-2{
+    width: 51%;
+    border: 2px solid black;
+}
+
+.servicecontent{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.servicecontent > div{
+    width: 80%;
+    height: 200px;
+    /* padding: 20px; */
+    margin: auto;
+}
+
+.servicecontent > div > p{
+    font-size:2vw;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.servicecontent > .oddservices{
+    color: #4F7C5B;
+}
+
+.ui.image.service-img{
+    height: 60px;
+    margin: auto;
+    width: 60px;
+}
+
+.servicecontent > .evenservices{
+    color: #132E18;
+}
+
+.btn-section{
+    width: 70%;
+    height: 30px;
+    margin: auto;
+}
+
+.btn-section > .knowmore-btn{
+    font-size: 1.6vw !important;
+    padding: 8px 20px 10px 20px !important;
+    left: 6% !important;
+    margin-top: -9% !important;
+    background-color: #132E18 !important;
+    border: none !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .serviceOuter{
+        margin-bottom: 70px;
+    }
+    .serviceheader{
+        font-size: 8vw;
+    }
+    .line-2{
+        margin-top: 4%;
+    }
+    .servicecontent{
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+        grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+    .ui.image.service-img{
+        height: 60px;
+        margin: auto;
+        width: 70px;
+    }
+    .ui.image.service-img2{
+        width: 60px !important;
+        height: 60px;
+        margin: auto;
+    }
+    .ui.image.service-img5{
+        width: 70px !important;
+    }
+    .servicecontent > div{
+        height: 160px;
+        margin-top: 20px;
+    }
+    .servicecontent > div > p{
+        font-size:3.3vw;
+        margin-top: 18px;
+        text-align: center;
+        font-family: 'Lato';
+    }
+    .btn-section > .ui.button.knowmore-btn{
+        font-size: 3vw !important;
+        top: 100% !important;
+    }
+  }
+  @media only screen and (max-width: 468px) {
+    .serviceheader {
+        font-size: 10vw;
+    }
+    .servicecontent > div > p{
+        font-size: 4vw;
+    }
+    .btn-section > .ui.button.knowmore-btn {
+        font-size: 4vw !important;
+    }
+  }

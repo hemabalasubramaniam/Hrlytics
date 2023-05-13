@@ -1,0 +1,95 @@
+    /* 1920 1080  
+
+.headingStyle {
+    font-size: 60px;
+    font-family: 'Lato';
+    margin-bottom: 20px !important;
+}
+
+.subheadingStyle {
+    font-size: 50px;
+    font-family: 'Lato';
+    line-height: 50px;
+}
+
+.sectionheadingStyle {
+    font-size: 55px;
+    font-family: 'Lato';
+    margin-bottom: 30px !important;
+}
+
+
+.serviceContent {
+    padding-left: 230px;
+    padding-right: 200px;
+    margin-bottom: 250px;
+    color: #011B10 !important;
+}
+
+.sectionPara {
+    line-height: 30px;
+}
+
+.sectionView {
+    margin-top: 150px;
+}
+
+.headerContent {
+    padding-top: 150px;
+    height: 200px;
+    text-align: center;
+}
+
+@media only screen and (max-width:1440px) {
+    .headingStyle {
+        font-size: 45px;
+    }
+
+    .subheadingStyle {
+        font-size: 38px;
+    }
+
+    .sectionheadingStyle {
+        font-size: 45px;
+        margin-bottom: 20px !important;
+    }
+
+
+    .serviceContent {
+        padding-left: 200px;
+        padding-right: 150px;
+    }
+
+    .headerContent {
+        padding: 100px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .headerContent {
+        padding: 50px 20px;
+    }
+
+    .serviceContent {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .sectionView {
+        margin-top: 80px;
+        padding: 0px !important;
+    }
+
+    .sectionPara {
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .sectionHeading {
+        font-size: 30px;
+    }
+} */

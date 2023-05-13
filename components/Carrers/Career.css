@@ -1,0 +1,316 @@
+/* .careerScreen {
+    margin: 0% 10%;
+}
+
+.careerTop {
+    width: auto;
+    margin-left: 5%;
+}
+
+
+.topPara {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 189%
+}
+
+.careerMiddle {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.middlesubHeading {
+    padding-top: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 108px;
+}
+
+.careersCard {
+    height: 175px;
+    align-items: center !important;
+}
+
+.ui.card.careersCard {
+    width: 280px !important;
+    padding-top: 30px;
+}
+
+
+.careersCard2 {
+    height: 100%;
+    align-items: center !important;
+    background-color: #E4DEAE !important;
+}
+.careersCard3 {
+    height: auto;
+    align-items: center !important;
+    min-height: 380px !important;
+    background-color: #E4DEAE !important;
+}
+
+.careerLine{
+    padding-top: 3% !important;
+}
+.ui.card.careersCard2 {
+    width: 100% ;
+    padding-top: 40px;
+    border-radius: 25px;
+}
+.ui.card.careersCard3 {
+    width: 100% ;
+    padding-top: 40px;
+    border-radius: 25px;
+}
+
+.cardMove1 {
+    margin: 0% 2% !important;
+    justify-content: center;
+}
+
+.cardMove2 {
+    margin: 0% 17% !important;
+    justify-content: center;
+}
+
+.topsubHeading {
+    width: auto;
+    line-height: 200%;
+}
+
+.careerBottom {
+    padding-top: 150px;
+}
+
+.subheadingStyle2 {
+    font-size: 32px;
+    font-family: 'Lato';
+    line-height: 50px;
+}
+
+.subheadingStyle3 {
+    font-size: 32px;
+    font-family: 'Lato';
+    line-height: 50px;
+}
+
+.bottomCards {
+    padding-top: 100px;
+}
+
+.cardPara {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 170%;
+    width: auto;
+    margin: 0% 5%;
+}
+
+.careercardContent {
+    width: 100%;
+}
+
+.lastCard {
+    margin: 0% 25%;
+}
+
+.allignLeft {
+    margin: auto;
+    text-align: center;
+}
+.headingStyle5{
+    font-size: 34px !important;
+    line-height: 200%;
+}
+
+.careerPara {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .bottomCards {
+        margin-left: 0px;
+    }
+
+    .topPara {
+        font-size: 15px;
+    }
+
+    .middlesubHeading {
+        font-size: 30px;
+    }
+
+    .headingStyle5 {
+        font-size: 30px;
+    }
+
+    .subheadingStyle2, .subheadingStyle3 {
+        font-size: 29px;
+    }
+
+    .cardPara {
+        font-size: 16px;
+    }
+
+    .careerPara {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .careerScreen{
+        margin: 0% 5%;
+    }
+
+    .careerTop {
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .careerPara {
+        text-align: justify;
+        position: relative;
+        top: -8%;
+    }
+
+    .subheadingStyle {
+        font-size: 22px;
+        position: relative;
+        top: -10%
+    }
+
+    .careerMiddle {
+        padding-top: 100px;
+        text-align: left;
+        margin: 0% 3%;
+    }
+
+    .headingStyle2 {
+        font-size: 18px !important;
+        line-height: 200%;
+        width: auto;
+    }
+
+    .middlesubHeading {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        width: 100% !important;
+    }
+
+    .cardMove1 {
+        position: relative;
+        left: -45%;
+        width: 510px !important;
+    }
+
+    .ui.card.careersCard {
+        width: 300px !important;
+        border-radius: 25px;
+        position: relative;
+        left: 10%;
+    }
+
+    .topsubHeading {
+        font-size: 20px;
+    }
+
+    .careerBottom {
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subheadingStyle3 {
+        font-size: 21px;
+
+    }
+
+    .careersCard2 {
+        height: auto;
+    }
+    
+    .ui.card.careersCard2 {
+        width: 100% !important;
+        padding-top: 40px;
+        border-radius: 25px;
+    }
+    .careersCard3 {
+        height: auto;
+    }
+    
+    .ui.card.careersCard3 {
+        width: 100% !important;
+        padding-top: 40px;
+    }
+    .careercardContent {
+        width: 94%;
+        padding-bottom: 30px;
+        text-align: justify;
+        position: relative;
+        top:-6%
+    }
+    
+    .cardPara {
+        font-size: 15px;
+        line-height: auto;
+        font-weight: 320;
+        width: auto;
+    }
+    
+    .lastCard {
+        margin: 0%;
+    }
+    
+    .bottomCards {
+
+        padding-top: 50px;
+    }
+} */
+
+.careers_div1{
+    padding: 0% 9% 0px 6%;
+}
+.careers_div1 > div >h1{
+    font-size: 4.7vw;
+    font-weight: bolder;
+    color: #132E18;
+    width: 55%;
+}
+.heading{
+    width: 100%;
+    padding-left: 0% !important;
+    margin-left: 0% !important;
+    /* padding-bottom: 0px; */
+}
+.career_img1{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 20px 0px;
+}
+@media only screen and (max-width:600px){
+
+    .careers_div1 > div >h1{
+        font-size: 6.9vw;
+        width: 100%;
+    }
+    .heading{
+        width: 80%;
+        /* padding-bottom: 0px; */
+    }
+    .careers_div1{
+        padding: 10% 8% 0px 8% ;
+    }
+}
+@media only screen and (max-width:468px){
+
+    .careers_div1{
+        padding: 10% 10% 0px 10%;
+    }
+}

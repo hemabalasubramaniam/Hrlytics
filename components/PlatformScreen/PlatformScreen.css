@@ -1,0 +1,66 @@
+.platformouter{
+    font-family: 'Lato';
+    padding-top: 110px;
+}
+
+.platformimage{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    padding: 0px 40px 20px 38px;
+}
+
+.platformimage > div > p{
+    font-weight: bold;
+}
+.leftdiv {
+    margin: 115px 0px 0px 10px;
+}
+
+.leftdiv > h1{
+    font-size: 3.2vw;
+    line-height: 1.2;
+}
+
+.leftdiv > h2{
+    font-size: 2.55vw;
+    margin-top: 40px;
+    color: #4F7C5B;
+    line-height: 1.2;
+}
+
+.leftdiv > p{
+    line-height: 1.1;
+}
+
+
+.rightdiv > .ui.image{
+    padding:8px 0px 0px 15px;
+    width: 77%;
+    margin: auto;
+}
+
+@media only screen and (max-width : 600px){
+    .platformouter{
+        padding-top: 40px;
+    }
+    .platformimage{
+        padding: 0px 0px 0px 30px;
+        display: block;
+    }
+    .rightdiv > .ui.image{
+        display: none;
+    }
+    .leftdiv{
+        margin: 40px 0px 40px 0px;
+        width: 100%;
+    }
+
+    .leftdiv > h1{
+        font-size: 6.5vw;
+    }
+    .leftdiv > h2{
+        font-size: 5.3vw;
+    }
+}

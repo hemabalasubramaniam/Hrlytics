@@ -1,0 +1,164 @@
+.ourServices {
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 60px 0px;
+    background-color: #4F7C5B;
+}
+
+.ourServices>h1 {
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    color: white;
+    font-size: 3.6vw;
+}
+
+.servicesHr {
+    width: 51%;
+}
+
+.servicesHr>hr {
+    background-color: white;
+    height: 3px;
+}
+
+.icons_grid {
+    /* border: 1px solid rgb(0, 38, 255); */
+    display: grid;
+    /* margin: auto; */
+    width: 85%;
+    margin-left: 5%;
+    padding: 0px 0%;
+    grid-template-columns: repeat(3, minmax(0, 2fr));
+}
+
+.icons_grid>div {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 90%;
+    /* height: 180px; */
+    margin-top: 1%;
+}
+
+.icons_grid>div>p {
+    color: white;
+    margin: auto;
+    font-size: 2vw;
+    line-height: 2.5vw !important;
+    text-align: center;
+    margin-top: 2%;
+    /* height: 85px; */
+    width: 90%;
+}
+
+.icons_grid>div>div>.ui.image {
+    /* border: 1px solid red; */
+    width: 60px;
+    margin: auto;
+    height: 100%;
+}
+
+.icons_grid>div>div {
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+.mob_icons {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .icons_grid {
+        /* border: 1px solid rgb(0, 38, 255); */
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 2fr));
+    }
+
+    .desk_icons {
+        display: none;
+    }
+
+    .mob_icons {
+        display: block;
+    }
+
+    .icons_grid>div>div {
+        width: 42% !important;
+    }
+
+    .icons_grid>div>p {
+        font-size: 3.9vw;
+        line-height: 5.5vw !important;
+        margin-top: 0%;
+        width: 95%;
+    }
+
+    .ourServices>h1 {
+        font-size: 7.6vw;
+    }
+
+    .icons_grid>div {
+        width: 95%;
+    }
+
+    .cloudP {
+        width: 100% !important;
+    }
+
+    .skillicon {
+        width: 80% !important;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    .icons_grid>div>div {
+        width: 90% !important;
+    }
+
+    .icons_grid>div>p {
+        font-size: 4vw;
+        line-height: 5.5vw !important;
+        margin-top: 0%;
+        width: 100%;
+    }
+    .icons_grid>div>div>.ui.image {
+        /* border: 1px solid red; */
+        width: 45px;
+        height: 100%;
+        margin: auto;
+    }
+
+    .skillicon {
+        width: 40px !important;
+    }
+    .icons_grid>div>p {
+        width: 100%;
+        font-size: 4.3vw;
+    }
+    .icons_grid>div {
+        width: 95%;
+    }
+    .icons_grid {
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 20px;
+    }
+    .maximimzeP {
+        width: 92% !important;
+    }
+
+    .cloudP {
+        width: 100% !important;
+    }
+    .ourServices>h1 {
+        font-size: 8.6vw;
+    }
+    .ourServices{
+        padding: 50px 0px;
+    }
+}
+@media only screen and (max-width:768px) {
+ 
+
+ 
+}

@@ -1,0 +1,57 @@
+.App{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    width: 4.2%;
+    box-shadow: 1px 1px 1px  #b3bb92ad;
+    position: fixed;
+    z-index: 1;
+    height:890px;
+}
+.sidebar > .scroll {
+    position: absolute;
+    display: block;
+    bottom: 20%;
+    left: 20%;
+    font-size: 1.1vw;
+    cursor: pointer;
+    writing-mode: vertical-rl;
+    height: 14%;
+    /* border: 1px solid rgba(245, 35, 35, 0.397); */
+}
+.sidebar > .scroll > .ui.image {
+    position: absolute;
+    left: 25%;
+    height: 30px !important;
+    /* top: 100%; */
+    bottom: 0px;
+
+}
+
+.sidebar > div {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.sidebar > div > div{
+    /* border: 1px solid rgba(35, 74, 245, 0.397); */
+    padding: 10px;
+    width: 100%;
+}
+
+.right{
+    width: 96%;
+    margin-left: 4.2%;
+}
+
+@media only screen and (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
+    .right{
+    width: 100%;
+    margin-left: 0%;
+    }
+    
+}

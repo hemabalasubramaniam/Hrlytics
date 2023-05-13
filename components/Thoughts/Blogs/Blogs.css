@@ -1,0 +1,377 @@
+.blogsOuter {
+    background-image: url('../../../Assets/images/blogs_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lato';
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.blogshead {
+    font-size: 4vw;
+    padding-left: 42%;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.line-blogs {
+    width: 48%;
+    border: 2px solid white;
+    margin-top: 25px;
+}
+
+.copyrights {
+    float: left;
+    margin-top: 180px;
+    writing-mode: vertical-rl;
+    padding-left: 70px;
+    display: flex;
+}
+
+.copyrights-text {
+    position: relative;
+    height: 180px;
+    font-size: 1.1vw;
+}
+
+.copyrights-line {
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 100px !important;
+    width: 95% !important;
+    margin: 10px !important;
+}
+
+.blogsdiv{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
+.blogscontent {
+    width:70%;
+    margin-left: 23%;
+    margin-top: 35px;
+}
+
+.blogslider{
+    width: 91%;
+    margin: auto;
+}
+
+.blogsinnerdiv{
+    width: 91% !important;
+    margin-left: 0px;
+}
+
+
+.blogsinnerdiv > .ui.card.blogscard{
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.blogsinnerdiv > .ui.card.blogscard > .content > .header{
+    padding: 0px !important;
+    font-size: 1.6vw;
+}
+
+.ui.button.addblogs-btn {
+    padding: 7px 22px 8px 22px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    margin-left: 80%;
+    border: 2px solid white;
+    font-size: 1.6vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+ .ui.modal.blogmodalopen{
+  right: 10%;
+ }
+
+.blog-modal {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.blog-modal > div {
+    padding: 40px;
+}
+
+.ui.form.blogform {
+    font-size: 1.6vw;
+    width: 90%;
+}
+
+.ui.form.blogform .field>label {
+    margin-left: 20px;
+}
+
+.ui.form.blogform .field .ui.input input {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #4F7C5B;
+}
+
+.ui.form.blogform textarea {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid #4F7C5B;
+}
+
+.ui.button.blogform-submit {
+    padding: 10px 20px 10px 20px;
+    float: right;
+    font-size: 1.5vw;
+    background-color: #132E18;
+    color: white;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.ui.modal.blogmodalopen >.close {
+    right: 102%;
+    background-color: #ffff;
+    color: black;
+    border-radius: 50%;
+    opacity: 1;
+    top: 0.5%;
+}
+
+.slick-arrow.slick-prev{
+    left: -12%;
+}
+
+.slick-arrow.slick-next {
+    right: 102%;
+}
+
+.slick-prev::before {
+    content: url('../../../Assets/images/leftarrow.png')!important;
+    opacity: 1 !important;
+}
+
+.slick-next::before {
+    content: url('../../../Assets/images/rightarrow.png')!important;
+    opacity: 1 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .blogsOuter {
+      background-image: url("../../../Assets/images/mobileblogsbackground.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      padding-bottom: 20px;
+    }
+    .blogshead {
+      font-size: 8vw;
+      padding-left: 0%;
+      text-align: center;
+      padding-top: 30px;
+    }
+    .line-blogs {
+      width: 51%;
+      border: 1px solid white;
+      margin-top: 10px;
+    }
+  
+    .copyrights {
+      display: none;
+    }
+    .blogscontent {
+      width: 85%;
+      margin-left: 15%;
+      margin-top: 30px;
+    }
+    .blogslider {
+      width: 100%;
+      margin: auto;
+    }
+    .blogsinnerdiv {
+      width: 90% !important;
+      margin-left: 0px;
+    }
+    .blogsinnerdiv > .ui.card.blogscard {
+      margin: 0px 0px 0px 0px;
+    }
+    .blogsinnerdiv > .ui.card.blogscard > .content > .header{
+        font-size: 2vw;
+    }
+    .blogsinnerdiv > .ui.card.blogscard > .content > .meta > p {
+      font-size: 2.5vw !important;
+      margin-top: 0px !important;
+    }
+    .slick-prev::before {
+      content: url("../../../Assets/images/prevarrow-mobile.png") !important;
+      opacity: 1 !important;
+      font-size: 1vw !important;
+      font-weight: 200 !important;
+      width: 20px !important;
+      height: 30px !important;
+    }
+  
+    .slick-next::before {
+      content: url("../../../Assets/images/nextarrow-mobile.png") !important;
+      opacity: 1 !important;
+    }
+    .slick-arrow {
+      width: 20px !important;
+      height: 30px !important;
+    }
+    .slick-arrow.slick-prev {
+      left: -12%;
+    }
+  
+    .slick-arrow.slick-next {
+      right: 102%;
+    }
+  
+    .ui.button.addblogs-btn {
+      padding: 5px 10px 5px 10px;
+      margin-top: 50px;
+      background-color: black;
+      color: white;
+      margin-left: 70%;
+      border: 2px solid white;
+      font-size: 4vw;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    .ui.modal.blogmodalopen {
+      right: 0%;
+      width: 80%;
+      max-height: 600px;
+      /* height: 10px !important; */
+    }
+    .blog-modal {
+      display: block;
+      width: 100%;
+    }
+    .blog-modal > div {
+      padding: 20px;
+      /* padding-right: 0px; */
+    }
+    .ui.form.blogform {
+      font-size: 1.6vw;
+      width: 35%;
+    }
+    .ui.form.blogform .field .ui.input input {
+      /* width: 55% !important; */
+      height: 35px !important;
+      border: 2px solid #4f7c5b !important;
+      margin-right: 10% !important;
+      font-size: 1.5vh;
+    }
+    .ui.form.blogform .field > label {
+      font-size: 3.5vw;
+      font-weight: 600;
+      padding-top: 12px;
+      margin-left: 8px;
+    }
+    .ui.form.blogform > .blog-modal > div > label {
+      font-size: 3.5vw;
+      font-weight: 600 !important;
+      padding-top: 5px;
+    }
+  
+    .ui.form.blogform textarea {
+      height: 120px !important;
+      border: 2px solid #4f7c5b !important;
+      margin-right: 60% !important;
+    }
+  
+    .ui.button.blogform-submit {
+      padding: 6px 15px 6px 15px;
+      float: right;
+      font-size: 3.5vw;
+      margin-top: 15px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    .ui.modal.blogmodalopen > .close {
+      right: 102%;
+      background-color: #ffff;
+      color: black;
+      border-radius: 50%;
+      top: 0.5%;
+      opacity: 1;
+      font-size: 5.2vw !important;
+      font-style: normal;
+    }
+    .nameFeilds {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .nameInput {
+      width: 50%;
+    }
+    .nameFeilds > .nameInput > label {
+      color: black !important;
+      font-weight: 600 !important;
+    }
+    .blog-modal > div > .emailFeild > label {
+      color: black !important;
+      font-weight: 600 !important;
+    }
+    .blog-modal > div > .linkedinFeild > label {
+      color: black !important;
+      font-weight: 600 !important;
+    }
+    .blog-modal > div > .thoughtsHrlytics {
+      color: black !important;
+      font-weight: 600 !important;
+      margin-left: 8px;
+    }
+    .blog-modal > div > .thoughtsTextarea {
+      margin-top: 5px;
+    }
+    .blogform-submit {
+      margin-top: 15px !important;
+      margin-bottom: 15px !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 468px) {
+    .ui.modal.blogmodalopen {
+      height: fit-content;
+    }
+    .ui.form.blogform {
+      width: 25%;
+    }
+    .slick-arrow.slick-prev {
+        left: -16%;
+      }
+    
+      .slick-arrow.slick-next {
+        right: 102%;
+      }
+  }
+/* 
+@media only screen and (max-width: 468px){
+    .ui.modal.blogmodalopen{
+        height: 380px;
+    }
+    .ui.form.blogform{
+        width: 25%;
+    }
+} */

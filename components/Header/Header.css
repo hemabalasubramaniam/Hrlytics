@@ -1,0 +1,11 @@
+@media screen and (min-width: 1441px) {
+  .underSquare {
+    background-color: black;
+    height: 5px;
+    width: 30px;
+    border-radius: 50px;
+    margin-top: -5px;
+    position: relative;
+    top: 10px;
+  }
+}

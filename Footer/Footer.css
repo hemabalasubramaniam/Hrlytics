@@ -1,0 +1,225 @@
+.footer {
+    background-color: #08150E;
+    padding-top: 4%;
+    height: auto;
+    /* display:flex;
+    
+    flex-direction: column; */
+}
+
+.head>h1 {
+    padding: 0% 0% 1% 10%;
+    color: white;
+    font-size: 2.6vw;
+}
+
+.head>h1>span {
+    color: #4F7C5B;
+}
+
+.head {
+    width: 60%;
+}
+
+.head>div {
+    width: 80%;
+    background-color: white;
+    height: 3px;
+}
+
+.button {
+    padding: 40px;
+    position: relative;
+}
+
+.button>button {
+    position: absolute;
+    background-color: #08150E;
+    border-radius: 30px;
+    right: 10.5%;
+    bottom: 0%;
+    font-style: normal;
+    font-family: 'Lato' !important;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 20px;
+}
+
+.flex_items {
+    padding: 50px 40px;
+    display: flex;
+}
+
+.flex_items>div {
+    width: 50%;
+}
+
+.div1>.logoFooter {
+    width: 15%;
+    margin: 0px 10px 0px 20px;
+}
+
+.div1>span>span {
+    /* border: 1px solid red; */
+    position: relative;
+    /* margin-top: 80px !important; */
+    padding: 5px;
+}
+
+.div1>span>span>span {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    font-size: 1.5vw;
+    /* border: 1px solid red; */
+}
+
+.div1>span {
+    color: white;
+    font-weight: 700;
+}
+
+.div2 {
+    position: relative;
+    right: 5%;
+    /* border: 1px solid red; */
+}
+
+.div2>.ui.header>span>span {
+    font-weight: 10 !important;
+    /* margin-top: 10%; */
+}
+
+.ui.container {
+    height: 100% !important;
+}
+
+.ui.container>.icons {
+    /* padding: 20px 0px; */
+    position: absolute;
+    bottom: 0 !important;
+    right: 2.5%;
+
+}
+
+.ui.container>.icons>.iconWithoutfb {
+    font-size: 2.3vw !important;
+    padding-right: 55px !important;
+}
+
+.ui.container>.icons>.iconFb {
+    padding-right: 45px !important;
+    font-size: 2vw !important;
+
+}
+
+.ui.container>.text {
+    position: absolute;
+    bottom: 0 !important;
+    font-weight: 700;
+    right: 35%;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer_mob {
+    display: none;
+}
+
+@media only screen and (max-width:992px) {
+    .ui.container>.icons>.iconWithoutfb {
+        font-size: 2.5vw !important;
+        padding-right: 1% !important;
+    }
+    
+    .ui.container>.icons>.iconFb {
+        font-size: 2.3vw !important;
+        padding-right: 1% !important;    
+    }
+    .div2 {
+        position: relative;
+        left: 7% !important;
+        font-size: 1.3vw;
+        width: 40% !important;
+        /* border: 1px solid red !important; */
+    }
+    .div1 {
+        /* padding: 30px 0px; */
+        font-size: 1.3vw;
+    }
+
+    .ui.container>.text {
+        padding-right: 6%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .footer_mob {
+        display: block;
+    }
+    .div2 {
+        position: relative;
+        left: 0% !important;
+        font-size: 3.2vw;
+        width: 100% !important;
+        /* border: 1px solid red !important; */
+    }
+    .flex_items {
+        display: none;
+    }
+
+    .ui.container {
+        padding: 20px 0px 50px 0px;
+    }
+
+    .div1 {
+        padding: 30px 0px;
+        font-size: 3.2vw;
+    
+        /* border: 1px solid red */
+    }
+
+    .ui.container>.icons>.iconWithoutfb {
+        font-size: 5.3vw !important;
+        /* padding-right: 10% !important; */
+    }
+
+    .ui.container>.icons>.iconFb {
+        /* padding-right: 2% !important; */
+        font-size: 5vw !important;
+
+    }
+    .ui.container>.icons {
+        right: 10% !important;
+    }
+    .ui.container>.text {
+        padding-right: 5% !important;
+    }
+
+    .button>button {
+        font-size: 3.2vw;
+    }
+    .head>h1 {
+        font-size: 4.9vw;
+        padding: 0% 0% 1% 3%;
+        width: 100%;
+    }
+    .head {
+        width: 95%;
+    }
+.head>div {
+    width: 50%;
+}
+}
+@media only screen and (max-width:468px) {
+    .button>button {
+        font-size: 4.5vw;
+    }
+    .head>h1 {
+        font-size: 5.2vw;
+    }
+}

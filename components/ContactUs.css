@@ -1,0 +1,131 @@
+.contactScreen {
+  padding-bottom: 200px;
+  height: 1111px;
+  background: linear-gradient(0deg, #011B10 19%, #B5AD71 86.85%);
+}
+
+.contactUsContent {
+  height: 85%;
+  width: 54%;
+  background-color: white;
+  margin: auto;
+}
+
+.headingStyle {
+  font-size: 40px;
+  font-family: 'Lato';
+}
+
+.formLeft {
+  padding-left: 10%;
+  font-size: 18px !important;
+}
+
+.column2 {
+  font-size: 18px !important;
+}
+
+.inputField {
+  width: 95%;
+  padding: 3% 2%;
+  border-radius: 4px;
+}
+
+.inputTextArea {
+  width: 95%;
+  padding: 3% 2%;
+  border-radius: 4px;
+}
+
+.submitButton {
+  width: 95%;
+  padding: 2%;
+  border-radius: 58.5px;
+  font-family: 'Objective';
+  background: #133A1B;
+  color: white;
+  margin-top: 30px;
+}
+
+.errorFont{
+  color: red;
+  height: 20px;
+}
+
+.contact_us_grid {
+  margin-top: 3rem !important;
+}
+
+.address_contant {
+  margin-left: 27px;
+  margin-top: -20px;
+  margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contactUsContent {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 80% !important;
+    height: 100% !important;
+  }
+  
+  .headingStyle {
+    font-size: 40px !important;
+  }
+  
+  .column1 {
+    position: relative;
+    left: -3%
+  }
+
+  .column2 {
+    position: relative;
+    top: 5%;
+    left: 6%;
+    width: 90%
+  }
+
+  .mapContent {
+    padding-top: 20px;
+    width: 340px;
+    padding-left: 5px;
+  }
+
+  .contactIcons {
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+  }
+
+  .contactScreen {
+    height: 100% !important;
+  }
+
+  .address_contant {
+    width: 247px;
+    margin-left: 26px;
+    margin-top: -21px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 1440px) {
+  .contactScreen {
+    height: 1000px;
+  }
+
+  .contactUsContent {
+    height: 80%;
+    width: 60%;
+  }
+
+  .formLeft {
+    font-size: 17px !important;
+  }
+
+  .column2 {
+    font-size: 17px !important;
+  }
+}

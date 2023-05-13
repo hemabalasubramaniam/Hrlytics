@@ -1,0 +1,98 @@
+.recentOuter{
+    font-family: 'Lato';
+    color: #132E18;
+    padding-bottom: 60px;
+}
+
+.recentblogsheader{
+    margin-left: 37%;
+    font-size: 4.1vw;
+    padding-top: 72px;
+}
+
+.line-recentblogs{
+    border: 2px solid black;
+    width: 53%;
+    float: right;
+    margin-top: 12px;
+}
+
+.recentContent{
+    width: 91%;
+    margin: auto;
+    display: grid;
+    margin-top: 75px;
+    padding-left: 20px;
+    grid-template-columns: auto auto;
+}
+.recent-left{
+    width: 94%;
+}
+
+.recentheader{
+    font-size: 2vw;
+}
+
+.recent-left > .ui.image{
+    height: 365px;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.recent-right {
+    margin: auto;
+    padding-top: 10px;
+    width: 330px;
+}
+
+.recent-right > p{
+    font-size: 1.35vw;
+    line-height: 1.2;
+}
+
+@media only screen and (max-width: 600px){
+    .recentOuter{
+        padding-bottom: 30px;
+    }
+    .recentblogsheader{
+        margin-left: 0%;
+        text-align: center;
+        font-size: 8vw;
+        padding-top: 35px;
+    }
+    .recentContent{
+        width: 90%;
+        display: flex;
+        margin-top: 40px;
+    }
+    .recent-left{
+        padding-right: 10px;
+    }
+    .recent-right {
+        margin: auto;
+        margin-top: 0px;
+        width: 70%;
+    }
+    .recentheader{
+        font-size: 3vw;
+        padding-bottom: 0px !important;
+    }
+    .recent-right > h1{
+        margin-bottom: 5px;
+    }
+    .recent-right > p{
+        font-size: 3vw;
+        line-height: 1.1;
+        padding-top: 0px !important;
+    }
+    .recent-left > .ui.image{
+        height: 180px;
+        width: 300px !important;
+        margin-right: 0px;
+    }
+    .line-recentblogs{
+        border: 1px solid black;
+        width: 52%;
+        margin-top: 0px;
+    }
+}

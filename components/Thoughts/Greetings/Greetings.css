@@ -1,0 +1,100 @@
+.greetingsouter{
+    font-family: 'Lato';
+    height: 1030px;
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.greetingscontent{
+    padding: 39px 0px 30px 10px;
+    width: 95%;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+.greetingsheader{
+    font-size: 4.95vw;
+    color: #132E18;
+}
+
+.greetingsleft{
+    padding-right: 5px;
+    padding-left: 6px;
+    color: #132E18;
+}
+
+.greetingsleft > h1{
+    padding-bottom: 8px;
+}
+
+.greetingsleft > p{
+    font-size: 1.63vw;
+    text-align: justify;
+    /* line-height: 1.25; */
+    font-family: 'Lato';
+    padding-top: 2px;
+}
+
+.greetingsleft > p > b{
+    font-size: 2vw;
+}
+
+.greetingsright > .ui.image{
+    width: 100%;
+    padding: 72px 0px 0px 37px;
+}
+
+.greetingscontentmobile{
+    display: none;
+}
+
+@media only screen and (max-width : 600px){
+    .greetingsouter{
+        height:100%;
+        padding-bottom: 60px;
+        margin-bottom: 10px;
+    }
+    .greetingscontentmobile{
+        display: block;
+        width:100%;
+        padding-left: 40px;
+        text-align: justify;
+        padding-top: 70px;
+    }
+    .greetingscontent{
+        display: none;
+    }
+    .paradiv{
+        width: 100%;
+    }
+    .imagediv{
+        height: auto;
+        width: 100%;
+    }
+    .imagediv > .ui.image{
+        height: 95%;
+        width: 100%;
+        padding-top: 80px;
+        /* padding-bottom: 40px; */
+        padding-left: 15px;
+    }
+
+    .greetingsmobile{
+        display : flex;
+        padding-bottom: 10px;
+    }
+    .greetingsmobile > .paradiv > h1{
+        font-size: 8vw;
+    }
+    .greetingsmobile > .paradiv > p{
+        font-size: 3.8vw;
+        line-height: 1.25;
+    }
+    
+    .greetingscontentmobile > p {
+        font-size: 3.8vw;
+        line-height: 1.25;
+        padding-right: 50px;
+    }
+}
+
